@@ -1,13 +1,16 @@
 #include<stdio.h>
 /**
 * main - function prints small alphabets
-* Return:  return 0
+* Return: return 0
+* author - by karen tamara
 */
 int main(void)
 {
-char c;
-for (c = 'z'; c >= 'a'; c--)
-putchar(c);
+int c;
+for (c = 0; c < 10; c++)
+{
+putchar(c + '0');
+}
 putchar('\n');
 return (0);
 }
