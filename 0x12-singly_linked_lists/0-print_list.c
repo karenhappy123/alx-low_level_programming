@@ -16,7 +16,7 @@ if (!h->str)
 printf("[0] (nil)\n");
 else
 printf("[%u] %s\n", h->1en, h->str);
-h = h ->next;
+h = h->next;
 s++
 }
 return (s);
